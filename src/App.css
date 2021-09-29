@@ -1,8 +1,9 @@
 :root{
   --primary-color: #E1E1E1;
-  --navbar-color: #C4C4C4;
+  --navbar-color: black;
   --primary-text-color: #000000;
   --secondary-text-color: #2694A3;
+  --navbar-text-color: lightgrey;
   --body-font-family: Inconsolata;
 }
 
@@ -23,6 +24,7 @@ html, body {
 
 .navbar {
   background-color: var(--navbar-color);
+  color: var(--navbar-text-color);
   height: 75px;
   width: 100%;
   display: flex;
