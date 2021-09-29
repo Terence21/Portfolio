@@ -1,0 +1,75 @@
+.home-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 632px;
+}
+
+.home-body-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 1 auto;
+}
+
+
+/* why is it ignoring the class name but not the selector? */
+.left {
+    display: absolute;
+    width: 45%;
+    margin-left: 8%;
+    float: left;
+}
+
+.home-body-content > div > div{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#nav-full-name{
+    font-size: 36px;
+}
+
+.home-body-content > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 45px;
+    margin-top: 30px;
+}
+
+/* 
+    Either: 
+    1. can't apply a classname 3 rows down?? id works
+    2. ITS FUCKING CLASS NOT CLASSNAME
+*/
+.left{
+    align-self: flex-start;
+}
+
+.home-body-content > img {
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.home-footer {
+    margin: 0 auto;
+}
+
+.home-footer > img {
+    margin-right: 55px;
+}
+
+.left > hr{
+    width: 30%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
