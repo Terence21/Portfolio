@@ -22,10 +22,10 @@ class App extends Component{
       return (
         <div className="App">
           <Router>
-                <Navbar className="mNav" variant="dark">
-                    <Container>
-                      <Navbar.Brand >Terence</Navbar.Brand>
-                      <Nav className="mr-auto">
+                <Navbar  variant="dark">
+                    
+                      <Navbar.Brand id="mBrand">Terence</Navbar.Brand>
+                      <Nav className="ms-auto">
                         <Nav.Link >
                           <Link class="mLink" to="/">Home</Link>
                         </Nav.Link>
@@ -36,10 +36,9 @@ class App extends Component{
                           <Link class="mLink" to="/projects">Projects</Link>
                         </Nav.Link>
                         <Nav.Link >
-                          <Link class="mLink" to="/contact">Contact</Link>
+                          <Link class="mLink" id="right-most-nav" to="/contact">Contact</Link>
                         </Nav.Link>
                       </Nav>
-                    </Container>
                 </Navbar>
                 <Switch>
                     <Route exact path="/"  component={Home.HomeBody} />      

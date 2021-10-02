@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin-top: 100px;
     /* height: 632px; */
-    height: 85%;
+    height: 90%;
 }
 
 .home-body-content {
@@ -85,9 +85,26 @@
 .navbar {
     background-color: var(--navbar-color);
     color: var(--navbar-text-color);
-    height: 7.2%;
-    width: 100%;
-    min-width: 600px;
+    height: fit-content;
+    max-height: ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#mBrand {
+    margin-left: 40px;
+    top: 40px;
+    position: relative;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mNav {
+    position: inherit;
+    align-self: flex-end;
+    background-color: red;
 }
 
 
@@ -95,9 +112,15 @@
     color: white;
 }
 
+.mr-auto {
+    width: fit-content;
+}
+
 .mLink {
     margin-right: 40px;
 }
+
+
 
 
 
