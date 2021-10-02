@@ -1,0 +1,71 @@
+.contact {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 30px 0px 0px;
+    font-family: Roboto-mono;
+    flex-wrap: nowrap;
+}
+
+.contact-prompt {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#contact-me {
+    font-size: 48px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#message-prompt, #messsage-prompt-talk {
+    font-size: 56px;
+}
+.mForm {
+    margin-right: 10%;
+    align-self: flex-end;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+   
+}
+
+.contact-form  > label, input, textarea{
+    display: block;
+    width: fit-content;
+    background-color: inherit;
+}
+
+.contact-form > input, textarea {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin: 20px 15px 15px 20px;
+}
+
+.contact-form > label {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin: 15px 0 15px 20px;
+}
+
+.contact-form > input {
+    
+}
+
+.contact-form > textarea {
+
+}
+
+#send-image {
+    height: 125px;
+    width: 125px;
+    border-bottom: none;
+    margin-top: -40px;
+    margin-bottom: -20px;
+}

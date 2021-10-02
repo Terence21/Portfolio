@@ -1,0 +1,12 @@
+.resume-img {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+}
+
+.resume {
+    margin: auto 0;
+}
