@@ -1,0 +1,134 @@
+.home-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* height: 632px; */
+    height: 90%;
+}
+
+.home-body-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 1 auto;
+}
+
+
+/* why is it ignoring the class name but not the selector? */
+.left {
+    display: absolute;
+    width: 45%;
+    margin-left: 8%;
+    float: left;
+}
+
+.home-body-content > div > div{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#nav-full-name{
+    font-size: 36px;
+}
+
+.home-body-content > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 45px;
+    margin-top: 30px;
+}
+
+/* 
+    Either: 
+    1. can't apply a classname 3 rows down?? id works
+*/
+.left{
+    align-self: flex-start;
+}
+
+.left > hr {
+    color: black;
+    border-top: 3px solid black;
+    max-width: 200px;
+
+}
+
+.home-body-content > img {
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.home-footer {
+    margin: 0 auto;
+}
+
+.footer-icons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-img{
+    align-self: auto;
+    background: white;
+    display: inline-block;
+    border-radius: 100%;
+    
+}
+
+.left > hr{
+    width: 30%;
+    float: left;
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+    color: var(--navbar-text-color);
+    height: fit-content;
+    max-height: ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#mBrand {
+    margin-left: 40px;
+    top: 40px;
+    position: relative;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mNav {
+    position: inherit;
+    align-self: flex-end;
+    background-color: red;
+}
+
+
+.mParent{
+    color: white;
+}
+
+.mr-auto {
+    width: fit-content;
+}
+
+.mLink {
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
