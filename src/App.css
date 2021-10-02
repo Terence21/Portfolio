@@ -7,53 +7,38 @@
   --body-font-family: Inconsolata;
 }
 
+#root {
+  height: 100%;
+}
 
 
 .App {
-
+height: 100%;
+width: 100%;
 }
 body {
   background-color: var(--primary-color);
   margin: 0px;
   font-family: Inconsolata, Geneva, Tahoma, sans-serif;
+
 }
 
 html, body {
+  min-width: 600px;
   height: 100%;
 }
 
-.navbar {
-  background-color: var(--navbar-color);
-  color: var(--navbar-text-color);
-  height: 75px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.brand {
+  font-weight: 600;
 }
 
-#website-author{
-  font-weight: bold;
-  width: fit-content;
-  height: fit-content;
-  align-items: flex-start;
-  margin-top: 30px;
-  margin-left: 20px;
+.mLink{
+  color: white;
+  text-decoration: none;
   
 }
 
- .navbar-labels-list {
-
-  width: fit-content;
-  height: fit-content;
-  float: right;
-  align-items: flex-end;
-  margin-top: 30px;
-  margin-right: 15px;
- 
+.mLink:hover{
+  color: white;
+  border-radius: 40px;
 }
-.navbar-labels-list li {
-  display: inline;
-  font-weight: bold;  
-  margin-right: 5px;
-  margin-left: 10px;
-} 

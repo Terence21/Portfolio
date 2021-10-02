@@ -2,6 +2,10 @@ import pfp from './images/pfp.jpg';
 import github from './images/icons8-github.svg';
 import linkedin from './images/icons8-linkedin.svg';
 import gmail from './images/icons8-gmail.svg';
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import './App.css'
+import './Nav.css'
+import constants from './Constants';
 
 function HomeBody(){
     return (
@@ -20,11 +24,25 @@ function HomeBody(){
 
                 <img src={pfp} />
             </div>
-        
-            <HomeFooter />
+            <BootStrapFooter />
         </div>
         
 
+    )
+}
+
+
+function BootStrapFooter(){
+    return (
+        <Navbar>
+                <Container>
+                <Nav className="mx-auto">
+                <Nav.Link className="mLink" href={constants.github} target="_blank"><a> <img class="footer-img" src={github} /> </a></Nav.Link>
+                <Nav.Link className="mLink" href={constants.linkedIn} target="_blank"><a> <img class="footer-img" src={linkedin} /></a></Nav.Link>
+                <Nav.Link className="mLink" href={constants.gmail} target="_blank"><a> <img class="footer-img" src={gmail} /> </a></Nav.Link>
+                </Nav>
+                </Container>
+            </Navbar>
     )
 }
 
@@ -38,4 +56,8 @@ function HomeFooter(){
     )
 }
 
-export default HomeBody;
+const Home = {
+    HomeBody : HomeBody,
+    BootStrapFooter : BootStrapFooter
+}
+export default Home;
